@@ -1,0 +1,23 @@
+{
+  "name": "xx/wechat",
+  "authors": [
+    {
+      "name": "xx",
+      "email": "xx@six.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Xx\\Wechat\\": "src"
+    }
+  },
+  "extra":{
+    "laravel":{
+      "providers":[
+        "XX\\Wechat\\Providers\\WeChatServiceProvider"
+      ]
+    }
+  }
+}
